@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pymupdf
+easyocr
+pillow
+pdf2image
+requests
+python-multipart
+langchain_ollama
+langchain
+python-dotenv  # Per gestire variabili d'ambiente
