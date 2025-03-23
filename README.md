@@ -84,9 +84,7 @@ curl -X 'POST' \
     "Doctor": [ #support list of elements
         "Dr. Smith",
         "Dr. Bean"
-    ],
-    "Born In": "New York",
-    "On": "1985-07-15"
+    ]
   }
 }
 }
