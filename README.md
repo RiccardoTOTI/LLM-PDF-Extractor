@@ -77,10 +77,18 @@ curl -X 'POST' \
 ```json
 {
   "extracted_data": {
-    "name": "John Doe",
-    "email": "johndoe@example.com",
-    "date": "2024-03-23"
+  "Patient": {
+    "First Name": "John",
+    "Last Name": "Doe",
+    "Tax Code": "ABC123XYZ",
+    "Doctor": [ #support list of elements
+        "Dr. Smith",
+        "Dr. Bean"
+    ],
+    "Born In": "New York",
+    "On": "1985-07-15"
   }
+}
 }
 ```
 
