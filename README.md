@@ -33,6 +33,11 @@ OLLAMA_MODEL=iodose/nuextract-v1.5
 ```sh
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ```
+
+### 5️⃣ Spin Ollama server
+```sh
+ollama run iodose/nuextract-v1.5
+```
 ## 🐳 Docker Support
 You can also run the application using **Docker**.
 
